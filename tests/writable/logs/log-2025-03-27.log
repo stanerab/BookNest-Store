@@ -1,0 +1,124 @@
+CRITICAL - 2025-03-27 10:41:05 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: pages/payment]
+in APPPATH\Controllers\Pages.php on line 33.
+ 1 APPPATH\Controllers\Pages.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bookshop-app\\app\\Controllers\\Pages.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->show('payment')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 12:50:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/pages.php"
+[Method: GET, Route: pages]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/pages.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/pages', [], true)
+ 3 APPPATH\Controllers\Pages.php(19): view('pages/pages')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 12:55:50 --> ErrorException: Undefined variable $news
+[Method: GET, Route: pages/%20Gerald-Gliddon]
+in APPPATH\Views\pages\view.php on line 5.
+ 1 APPPATH\Views\pages\view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news', 'C:\\xampp\\htdocs\\bookshop-app\\app\\Views\\pages\\view.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\bookshop-app\\app\\Views\\pages\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/view', [], true)
+ 5 APPPATH\Controllers\Pages.php(36): view('pages/view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->show(' Gerald-Gliddon')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 12:56:18 --> ErrorException: Undefined variable $news
+[Method: GET, Route: pages/%20Gerald-Gliddon]
+in APPPATH\Views\pages\view.php on line 5.
+ 1 APPPATH\Views\pages\view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news', 'C:\\xampp\\htdocs\\bookshop-app\\app\\Views\\pages\\view.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\bookshop-app\\app\\Views\\pages\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/view', [], true)
+ 5 APPPATH\Controllers\Pages.php(36): view('pages/view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->show(' Gerald-Gliddon')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 13:13:18 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: pages/payment]
+in APPPATH\Controllers\Pages.php on line 33.
+ 1 APPPATH\Controllers\Pages.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bookshop-app\\app\\Controllers\\Pages.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->show('payment')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 13:14:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: pages/payment]
+in APPPATH\Controllers\Pages.php on line 33.
+ 1 APPPATH\Controllers\Pages.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bookshop-app\\app\\Controllers\\Pages.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->show('payment')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 13:21:15 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: pages/payment]
+in APPPATH\Controllers\Pages.php on line 33.
+ 1 APPPATH\Controllers\Pages.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bookshop-app\\app\\Controllers\\Pages.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->show('payment')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 13:22:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: pages/payment]
+in APPPATH\Controllers\Pages.php on line 33.
+ 1 APPPATH\Controllers\Pages.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bookshop-app\\app\\Controllers\\Pages.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->show('payment')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 13:31:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: pages/payment]
+in APPPATH\Controllers\Pages.php on line 33.
+ 1 APPPATH\Controllers\Pages.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bookshop-app\\app\\Controllers\\Pages.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->show('payment')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 13:32:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: pages/payment]
+in APPPATH\Views\pages\view.php on line 5.
+ 1 APPPATH\Views\pages\view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bookshop-app\\app\\Views\\pages\\view.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\bookshop-app\\app\\Views\\pages\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/view', [], true)
+ 5 APPPATH\Controllers\Pages.php(37): view('pages/view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->show('payment')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 13:40:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: pages/payment]
+in APPPATH\Controllers\Pages.php on line 33.
+ 1 APPPATH\Controllers\Pages.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bookshop-app\\app\\Controllers\\Pages.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->show('payment')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
