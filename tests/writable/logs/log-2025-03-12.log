@@ -1,0 +1,84 @@
+CRITICAL - 2025-03-12 16:33:26 --> ErrorException: Undefined variable $slug
+[Method: GET, Route: home]
+in APPPATH\Views\pages\home.php on line 58.
+ 1 APPPATH\Views\pages\home.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slug', 'C:\\xampp\\htdocs\\bookshop-app\\app\\Views\\pages\\home.php', 58)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\bookshop-app\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 16:34:58 --> ErrorException: Undefined variable $slug
+[Method: GET, Route: home]
+in APPPATH\Views\pages\home.php on line 58.
+ 1 APPPATH\Views\pages\home.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slug', 'C:\\xampp\\htdocs\\bookshop-app\\app\\Views\\pages\\home.php', 58)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\bookshop-app\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 17:07:31 --> ErrorException: Undefined variable $slug
+[Method: GET, Route: home]
+in APPPATH\Views\pages\home.php on line 59.
+ 1 APPPATH\Views\pages\home.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slug', 'C:\\xampp\\htdocs\\bookshop-app\\app\\Views\\pages\\home.php', 59)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\bookshop-app\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 17:07:42 --> ErrorException: Undefined variable $slug
+[Method: GET, Route: home]
+in APPPATH\Views\pages\home.php on line 59.
+ 1 APPPATH\Views\pages\home.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slug', 'C:\\xampp\\htdocs\\bookshop-app\\app\\Views\\pages\\home.php', 59)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\bookshop-app\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 17:07:43 --> ErrorException: Undefined variable $slug
+[Method: GET, Route: home]
+in APPPATH\Views\pages\home.php on line 59.
+ 1 APPPATH\Views\pages\home.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slug', 'C:\\xampp\\htdocs\\bookshop-app\\app\\Views\\pages\\home.php', 59)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\bookshop-app\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 17:07:44 --> ErrorException: Undefined variable $slug
+[Method: GET, Route: home]
+in APPPATH\Views\pages\home.php on line 59.
+ 1 APPPATH\Views\pages\home.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slug', 'C:\\xampp\\htdocs\\bookshop-app\\app\\Views\\pages\\home.php', 59)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\bookshop-app\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
