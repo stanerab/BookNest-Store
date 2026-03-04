@@ -7,6 +7,12 @@ use CodeIgniter\Exceptions\PageNotFoundException;
 
 class Pages extends BaseController
 {
+    // Load helpers in the constructor
+    public function __construct()
+    {
+        helper('html'); // Loads the HTML helper which includes esc()
+    }
+
     public function index()
     {
         $model = model(NewsModel::class);
@@ -56,7 +62,7 @@ class Pages extends BaseController
             . view('templates/footer');
     }
 
-    // NEW: Basket page
+    // Basket page
     public function basket()
     {
         $data['title'] = 'Your Basket';
