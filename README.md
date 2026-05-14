@@ -6,7 +6,7 @@ The system includes shopping basket functionality and administrative management 
 
 ## Live Demo
 
-[View Live Project] https://blueprintcaretech.com/booknest/pages
+https://blueprintcaretech.com/booknest/pages
 
 ## Features
 
