@@ -1,68 +1,91 @@
-# CodeIgniter 4 Application Starter
+# BookNest – Full-Stack Online Bookshop
 
-## What is CodeIgniter?
+BookNest is a responsive full-stack online bookshop web application developed to provide users with an interactive platform for browsing, searching, and managing books online. The application allows users to locate nearby bookshops using the Google Geolocation API for enhanced accessibility and user experience.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+The system includes shopping basket functionality and administrative management features connected to the database, allowing administrators to update prices, modify product images, add new books, and remove existing products dynamically.
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## Live Demo
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+[View Live Project] https://blueprintcaretech.com/booknest/pages
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+## Features
 
-## Installation & updates
+## Features
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+- Browse and search for books
+- Shopping basket functionality
+- Add, edit, and delete books
+- Dynamic database-driven product management
+- Real-time price and product image updates from the database
+- Google Geolocation API integration to locate nearby bookshops
+- Admin management functionality
+- Responsive Bootstrap interface
+- Dynamic product listings
+- Full CRUD operations for book management
+- Database-driven application using MySQL
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+## Tech Stack
 
-## Setup
+| Technology | Purpose |
+|---|---|
+| CodeIgniter 4 | PHP Framework |
+| PHP | Backend Development |
+| Bootstrap 5 | Responsive UI Design |
+| JavaScript | Client-side Interactivity |
+| MySQL | Database Management |
+| HTML/CSS | Frontend Structure & Styling |
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+## Why I Built This
 
-## Important Change with index.php
+I developed BookNest to strengthen my full-stack web development skills and gain practical experience working with MVC architecture, database integration, API integration, CRUD operations, and responsive frontend development. The project also allowed me to improve my understanding of dynamic database management and real-world e-commerce functionality using CodeIgniter 4 and MySQL.
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+## Usage
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+BookNest allows users to browse and search for books through a responsive online shopping platform. Users can add books to a shopping basket and explore dynamically updated product listings retrieved directly from the MySQL database.
 
-**Please** read the user guide for a better explanation of how CI4 works!
+The application also integrates the Google Geolocation API to help users locate nearby bookshops based on their location. Administrative functionality allows products to be managed dynamically through database operations, including updating prices, modifying product images, adding new books, and deleting existing listings.
 
-## Repository Management
+## Challenges & Solutions
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+### Google Geolocation API Integration
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+One of the main challenges during development was integrating the Google Geolocation API to accurately locate nearby bookshops and display location-based functionality within the application. This required handling API requests, location permissions, and dynamically processing geographical data within the frontend.
 
-## Server Requirements
+### Dynamic Database Management
 
-PHP version 8.1 or higher is required, with the following extensions installed:
+Managing real-time product updates from the database required efficient CRUD operations and backend logic using CodeIgniter 4. This included implementing functionality for updating product prices, changing images, and dynamically managing book listings through the admin system.
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+### Responsive Layout Design
 
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
+Ensuring the application remained responsive across multiple screen sizes required careful Bootstrap grid structuring and frontend UI adjustments to improve usability on desktop and mobile devices.
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+## What I Learned
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+Through this project, I improved my understanding of:
+
+- MVC application structure using CodeIgniter 4
+- MySQL database integration
+- CRUD operations and dynamic data management
+- Google Geolocation API integration
+- Backend routing and controllers
+- Responsive frontend development using Bootstrap
+- Dynamic product rendering from databases
+- Full-stack web application development
+
+## Deployment
+
+This application has been deployed online and is accessible for live demonstration and testing purposes.
+
+## Future Improvements
+
+- Wishlist functionality
+- Order tracking system
+- Book reviews and ratings
+- Advanced filtering and search functionality
+- Improved geolocation mapping features
+
+## Author
+
+Stanley Erhabor
+
+GitHub: https://github.com/stanerab
